@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./Header.css"
 
-function Title() {
+function Header() {
   return (
     <header>
       <h3>facebook</h3>
@@ -10,4 +10,4 @@ function Title() {
   );
 }
 
-export default Title
+export default Header
