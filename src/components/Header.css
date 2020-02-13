@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+header h3 {
+  font-size: large;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+header span {
+  font-size: x-small;
+  padding-right: 20px;
+}

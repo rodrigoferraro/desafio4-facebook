@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import "./Header.css"
 
 function Title() {
   return (
     <header>
-      <h2>facebook</h2>
-      <h4>Meu perfil</h4>
+      <h3>facebook</h3>
+      <span>Meu perfil</span>
     </header>
   );
 }
