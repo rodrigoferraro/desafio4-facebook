@@ -1,0 +1,27 @@
+img#avatar {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.post {
+  margin-top: 20px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  color: #3e3e3e;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post_date {
+  color: gray;
+  font-size: small;
+}
+
+.post_author {
+  color: rgb(40, 40, 40);
+  font-weight: bold;
+  font-size: small;
+}
