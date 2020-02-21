@@ -9,16 +9,13 @@ header nav{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  
   color: #fff;
   font-size: 14px;
+
+  padding: 0 50px 0 50px;
 }
 
-img{
+img.logo{
   padding: 20px;
-  padding-left: 50px;
-}
-
-header span {
-  font-size: x-small;
-  padding-right: 50px;
 }

@@ -1,9 +1,29 @@
 
-html,
-body,
-#root {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f2f2f2;
-  height: 100%;
+* {
   margin: 0;
+  padding: 0;
+
+  /* BOX-SIZING:border-box faz o padding dos elementos de forma interna
+      ou seja, não aumenta o espaço ocupado, mas sim, retira da dimensão
+      do elemento o valor do padding.
+  */
+  box-sizing: border-box;
 }
+
+html,
+body {
+  background: #f2f2f2;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smothing: antialiased !important;
+
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+input,
+button {
+  outline: 0;
+}
+

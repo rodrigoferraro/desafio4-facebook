@@ -104,7 +104,7 @@ class PostList extends Component {
   render() {
     return (
       <>
-        <ul>
+        <ul class="post-list">
           {this.state.posts.map(p => (
             <Post key={p} post={p} />
           ))}

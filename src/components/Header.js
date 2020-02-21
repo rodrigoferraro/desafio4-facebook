@@ -5,9 +5,9 @@ function Header() {
   return (
     <header>
       <nav>
-        <img id='logo' src="https://i.imgur.com/KDIDiSE.png" />
+        <img class="logo" src="https://i.imgur.com/KDIDiSE.png" />
         <div>
-          <span>Meu perfil</span>
+          <strong>Meu perfil</strong>
         </div>
       </nav>
     </header>

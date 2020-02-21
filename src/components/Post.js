@@ -6,12 +6,20 @@ import "./Post.css";
 function Post({ post }) {
   return (
     <li>
-      <div className="post">
-        <img id="avatar" src={post.author.avatar} />
-        <span className="post_author">{post.author.name}</span>
-        <span className="post_date">{post.date}</span>
-        <span className="content">{post.content}</span>
-        <ul>
+      <div class="post">
+        <div class="post-completo">
+          <div class="who-post-data">
+            <div class="imagem">
+              <img src={post.author.avatar} />
+            </div>
+            <div class="who-post-data-text">
+              <span class="post_author">{post.author.name}</span>
+              <strong class="post_date">{post.date}</strong>
+            </div>
+          </div>
+          <span class="content">{post.content}</span>
+        </div>
+        <ul class="post-comment-list">
           {post.comments.map(c => (
             <Comment key={c.id} c={c} />
           ))}

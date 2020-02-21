@@ -1,4 +1,4 @@
-li, ul{
-  list-style-type: none;
+ul.post-list{
+  list-style: none;
 }
 

@@ -4,14 +4,14 @@ import "./Comment.css";
 
 function Comment({ c }) {
   return (
-    <li>
-      <div>
-        <img id="avatar" src={c.author.avatar} />
-        <div className="comentario">
-          <span className="post_author">{c.author.name}</span>
-          <span className="content">{c.content}</span>
-        </div>
+    <li class="comentarios">
+      <div class="imagem">
+        <img src={c.author.avatar} />
       </div>
+        <div class="comentario">
+          <span class="post_author">{c.author.name}</span>
+          {c.content}
+        </div>
     </li>
   );
 }

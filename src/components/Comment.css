@@ -1,6 +1,28 @@
+li .comentarios {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
 .comentario {
-  margin-top: 20px;
-  background-color: lightgray;
-  border-radius: 8px;
+  font-size: 13px;
+  background-color: rgb(235, 235, 235);
+  
+  border-radius: 30px;
+
+  margin-left: 7px;
+  padding: 15px;
+  
+  text-align: justify;
+
+  line-height: 1.5rem;
+}
+
+.comentario span {
+  margin-right: 10px;
+
 }
 
